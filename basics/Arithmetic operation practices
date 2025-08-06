@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int total = sc.nextInt();
+        int players = sc.nextInt();
+        int team = total/players;
+        int remaining = total%players;
+        System.out.println("Total teams formed: "+team);
+        System.out.println("Players left out: "+remaining);
+        
+       
+    }
+}
